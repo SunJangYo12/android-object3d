@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:padding="20dp"
+		android:layout_height="fill_parent">
+
+		<TextView
+			android:text="Path object"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+		<Button
+			android:id="@+id/btnPathObject"
+			android:layout_marginBottom="20dp"
+			android:text="open object file"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+		<TextView
+			android:text="Skala"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+		<EditText
+			android:id="@+id/edtSkala"
+			android:hint="4"
+			android:singleLine="true"
+			android:layout_width="fill_parent"
+			android:layout_marginBottom="10dp"
+			android:layout_height="wrap_content"/>
+		
+		<TextView
+			android:text="Posisi"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+		<EditText
+			android:id="@+id/edtPosisi"
+			android:hint="x,y,z"
+			android:singleLine="true"
+			android:layout_width="fill_parent"
+			android:layout_marginBottom="10dp"
+			android:layout_height="wrap_content"/>
+		
+		<TextView
+			android:text="Camera Rotasi"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+		<EditText
+			android:id="@+id/edtCameraRotasi"
+			android:hint="7"
+			android:singleLine="true"
+			android:layout_width="fill_parent"
+			android:layout_marginBottom="10dp"
+			android:layout_height="wrap_content"/>
+		
+		<TextView
+			android:text="Camera"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+		<EditText
+			android:id="@+id/edtCamera"
+			android:hint="0.0023f,0.001f"
+			android:singleLine="true"
+			android:layout_width="fill_parent"
+			android:layout_marginBottom="10dp"
+			android:layout_height="wrap_content"/>
+
+		<TextView
+			android:text="Camera Zoom"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+		<EditText
+			android:id="@+id/edtCameraZoom"
+			android:hint="8"
+			android:singleLine="true"
+			android:layout_width="fill_parent"
+			android:layout_marginBottom="10dp"
+			android:layout_height="wrap_content"/>
+
+	</LinearLayout>
+
+</ScrollView>
+
